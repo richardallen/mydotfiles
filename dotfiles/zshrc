@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+# All zsh configuration is loaded via zplug.
+source $HOME/bin/zplug-setup.zsh
+
+# Then, source plugins and add commands to $PATH
+zplug load
+
+# Sourced as zplug plugins instead.
+#for script in ~/.zsh/*; do
+#  source $script
+#done
+
