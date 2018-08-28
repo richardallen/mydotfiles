@@ -23,12 +23,6 @@ zplug "modules/completion", from:prezto
 # https://github.com/sorin-ionescu/prezto/tree/master/modules/ssh
 #zplug "modules/ssh", from:prezto
 
-# ZSH port of Fish history search (up arrow)
-zplug "zsh-users/zsh-history-substring-search"
-
-# Fish-like fast/unobtrusive autosuggestions for zsh.
-zplug "zsh-users/zsh-autosuggestions"
-
 # Additional completion definitions for Zsh.
 #zplug "zsh-users/zsh-completions"
 
@@ -50,12 +44,17 @@ zplug "peterhurford/up.zsh"
 # Async for zsh, used by pure theme
 zplug "mafredri/zsh-async", from:github, defer:0
 
-
 # Pretty, minimal and fast ZSH prompt
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
+# Fish-like fast/unobtrusive autosuggestions for zsh.
+zplug "zsh-users/zsh-autosuggestions"
+
 # Syntax highlighting for commands, load last
-zplug "zsh-users/zsh-syntax-highlighting", from:github, defer:3
+zplug "zsh-users/zsh-syntax-highlighting", from:github, defer:0
+
+# ZSH port of Fish history search (up arrow)
+zplug "zsh-users/zsh-history-substring-search", defer:1
 
 # Local plugins
 zplug "~/.zsh", from:local, defer:3

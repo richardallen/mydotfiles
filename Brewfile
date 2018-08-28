@@ -17,6 +17,7 @@ brew 'gawk'                                         # https://www.gnu.org/softwa
 brew 'git'                                          # https://git-scm.com/
 brew 'gnupg'                                        # https://www.gnupg.org/
 brew 'gnu-sed', args: ['with-default-names']        # https://www.gnu.org/software/sed/
+brew 'gradle'                                       # https://gradle.org/
 brew 'grep'                                         # https://www.gnu.org/software/grep/
 #brew 'lnav'                                         # http://lnav.org/
 brew 'mackup'                                       # https://github.com/lra/mackup
