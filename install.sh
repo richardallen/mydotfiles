@@ -185,8 +185,8 @@ configure_node() {
     npm install -g 'yarn'
     npm install -g 'yo'
     npm install -g '@angular/cli'
-    npm install -g 'aws-appsync-codegen'
-    npm install -g 'graphql-cli'
+    # npm install -g 'aws-appsync-codegen'
+    # npm install -g 'graphql-cli'
 }
 
 configure_vim() {
