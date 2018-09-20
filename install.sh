@@ -284,7 +284,7 @@ main() {
     configure_node
     configure_vim
     configure_zsh
-    install_python_tools
+#    install_python_tools
 #    configure_vscode
 
 #    delete_backup
