@@ -17,7 +17,6 @@ brew 'gawk'                                         # https://www.gnu.org/softwa
 brew 'git'                                          # https://git-scm.com/
 brew 'gnupg'                                        # https://www.gnupg.org/
 brew 'gnu-sed', args: ['with-default-names']        # https://www.gnu.org/software/sed/
-brew 'gradle'                                       # https://gradle.org/
 brew 'grep'                                         # https://www.gnu.org/software/grep/
 #brew 'lnav'                                         # http://lnav.org/
 brew 'mackup'                                       # https://github.com/lra/mackup
@@ -118,6 +117,8 @@ cask 'font-inconsolata-for-powerline'
 cask 'font-roboto-mono'
 cask 'font-roboto-mono-for-powerline'
 
+# Can only be installed after Java
+brew 'gradle'                                       # https://gradle.org/
 
 # Mac App Store apps
 mas 'LastPass', id: 926036361
