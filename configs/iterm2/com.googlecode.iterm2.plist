@@ -2155,7 +2155,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>125 426 796 473 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3393 -321 1299 945 1680 -398 3840 2137 </string>
+	<string>17 39 1625 985 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2858,6 +2858,8 @@
 	<integer>0</integer>
 	<key>UseBorder</key>
 	<false/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.1.7</string>
 </dict>
