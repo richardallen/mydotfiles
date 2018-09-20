@@ -205,14 +205,14 @@ configure_zsh() {
 }
 
 # TODO: Use requirements.txt
-install_python_tools() {
+#install_python_tools() {
     # Use Python 3 venv instead https://docs.python.org/3/library/venv.html
     #pip install virtualenv
-}
+#}
 
 # TODO: Setup WebStorm
-configure_webstorm() {
-}
+#configure_webstorm() {
+#}
 
 # TODO: Setup vscode
 configure_vscode() {
