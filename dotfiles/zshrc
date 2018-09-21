@@ -6,3 +6,4 @@ source $HOME/bin/zplug-setup.zsh
 # Then, source plugins and add commands to $PATH
 zplug load
 
+

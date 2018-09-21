@@ -27,6 +27,8 @@ brew 'nmap'                                         # https://nmap.org/
 brew 'openconnect'                                  # http://www.infradead.org/openconnect/
 brew 'peco'                                         # https://github.com/peco/peco
 #brew 'ranger'                                       # https://github.com/ranger/ranger
+brew 'rbenv'                                        # https://github.com/rbenv/rbenv
+brew 'rbenv-gemset'                                 # https://github.com/jf/rbenv-gemset
 brew 'readline'                                     # https://tiswww.case.edu/php/chet/readline/rltop.html
 brew 'ripgrep'                                      # https://github.com/BurntSushi/ripgrep
 brew 'screen'                                       # https://www.gnu.org/software/screen/

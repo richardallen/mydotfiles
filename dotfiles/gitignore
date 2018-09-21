@@ -45,3 +45,7 @@ Session.vim
 # SASS
 # ----------------------------------------------------------------------------------------------
 .sass-cache
+
+# Needed for certain project. Use negation to include as you would normally want to.
+.ruby-version
+.rbenv-gemsets
