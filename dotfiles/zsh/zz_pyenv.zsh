@@ -1,2 +1,13 @@
-#if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
-#if command -v pyenv-virtualenv-init 1>/dev/null 2>&1; then eval "$(pyenv virtualenv-init -)"; fi
+if ! [ -x "$(command -v pyenv)" ]; then
+  echo 'ERROR: pyenv is not installed!' >&2
+  return 1
+fi
+
+if ! [ -x "$(command -v pyenv-virtualenv-init)" ]; then
+  echo 'ERROR: pyenv-virtualenv-init is not installed!' >&2
+  return 1
+fi
+
+eval "$(pyenv init -)";
+eval "$(pyenv virtualenv-init -)";
+

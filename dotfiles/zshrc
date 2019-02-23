@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
+# Added for poetry
+fpath+=~/.zfunc
+
 # All zsh configuration is loaded via zplug.
 source $HOME/bin/zplug-setup.zsh
 
